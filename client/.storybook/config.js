@@ -4,6 +4,7 @@ import { configure } from '@storybook/react';
 
 function loadStories() {
   require('../app/stories/index');
+  require('../app/stories/inputs');
 }
 
 configure(loadStories, module);

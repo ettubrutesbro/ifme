@@ -1,0 +1,8 @@
+.switch{
+    background: blue;
+    height: 49px;
+    .button{
+        height: 43px;
+        background: red;
+    }
+}

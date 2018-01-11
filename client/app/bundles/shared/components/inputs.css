@@ -1,0 +1,33 @@
+.switch {
+  position: relative;
+  height: 49px;
+  box-sizing: border-box;
+  width: 120px;
+  border-radius: 4px;
+  transition: background .2s; }
+  .switch.on {
+    background: #BACF88; }
+    .switch.on .button {
+      transform: translateX(0); }
+  .switch.off {
+    background: #6D0839; }
+    .switch.off .button {
+      transform: translateX(-41px); }
+  .switch .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 3px;
+    width: 72px;
+    height: 43px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    transition: transform .2s; }
+
+/*# sourceMappingURL=inputs.css.map */
