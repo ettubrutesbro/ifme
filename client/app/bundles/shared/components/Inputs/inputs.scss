@@ -1,4 +1,7 @@
+@import "../base.scss";
+
 .switch{
+    font-family: 'Lato', sans-serif;
     position: relative;
     height: 49px;
     box-sizing: border-box;
@@ -29,6 +32,18 @@
         border-radius: 5px;
         background: rgba(255,255,255,0.7);
         display: flex; align-items: center;
-        transition: transform .2s;
+        transition: transform .2s, opacity .2s;
+        cursor: pointer;
+        .text{
+            color: #6D0839;
+            letter-spacing: 0.0945em;
+            opacity: 0.5;
+            font-size: 14px;
+            transition: transform .2s, opacity .2s;
+        }
+        &:hover{
+            background: rgba(255,255,255,0.85);
+            .text { opacity: 0.75; }
+        }
     }
 }
